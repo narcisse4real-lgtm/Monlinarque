@@ -2,7 +2,7 @@
   "name": "monlinarque",
   "version": "0.1.0",
   "private": true,
-  "description": "monlinarque — linea d'Amour. Phase-1 commission site.",
+  "description": "monlinarque — linea d’Amour. Phase-1 commission site.",
   "scripts": {
     "build": "bash scripts/build-preview.sh"
   },

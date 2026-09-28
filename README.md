@@ -1,15 +1,13 @@
 # Monlinarque
 
-Preview deployment source for the Monlinarque website.
+Website source used for the Monlinarque Vercel deployment.
 
-## Deploy on Vercel
+## Current version
 
-The GitHub repository already exists, so import this repository into Vercel rather than cloning it again:
+This repository reconstructs the exact uploaded project bundle during the Vercel build.
 
-**Repository:** https://github.com/narcisse4real-lgtm/Monlinarque
+Bundle SHA-256:
 
-**Vercel import:** https://vercel.com/new?teamSlug=narcisse4real-lgtms-projects
+`b1047ba8ce3c805098db7ea52351b10242734cd8bf1bb8e23586dda6bef3eae6`
 
-In Vercel, choose **Import Git Repository**, select `narcisse4real-lgtm/Monlinarque`, keep the default Next.js settings, then click **Deploy**.
-
-The deployment reconstructs the prepared Monlinarque Next.js source during the build.
+The current bundle includes the refreshed dog photography, bronze/gold relief imagery, detail shots, interior scene and beach campaign imagery.
