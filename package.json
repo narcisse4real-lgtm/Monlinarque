@@ -1,27 +1,8 @@
 {
-  "name": "monlinarque",
-  "version": "0.1.0",
+  "name": "monlinarque-deploy-wrapper",
+  "version": "1.0.0",
   "private": true,
-  "description": "monlinarque — linea d’Amour. Phase-1 commission site.",
   "scripts": {
     "build": "bash scripts/build-preview.sh"
-  },
-  "engines": {
-    "node": ">=20"
-  },
-  "dependencies": {
-    "@vercel/analytics": "^2.0.1",
-    "next": "^16.3.6",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
-    "server-only": "^0.0.1",
-    "three": "^0.186.1"
-  },
-  "devDependencies": {
-    "@types/node": "^26.6.3",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
-    "@types/three": "^0.186.0",
-    "typescript": "^5.9.3"
   }
 }

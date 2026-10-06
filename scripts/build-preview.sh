@@ -1,15 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
-BUNDLE="/tmp/monlinarque-v2.zip"
-WORK="/tmp/monlinarque-v2"
-
-cat bundle-v2/chunk-*.txt | tr -d '\r\n ' | base64 -d > "$BUNDLE"
-echo "b1047ba8ce3c805098db7ea52351b10242734cd8bf1bb8e23586dda6bef3eae6  $BUNDLE" | sha256sum -c -
-
-rm -rf "$WORK"
-mkdir -p "$WORK"
-unzip -q "$BUNDLE" -d "$WORK"
-cp -a "$WORK/monlinarque/." .
-
-./node_modules/.bin/next build
+cat chunks/group*/chunk-*.txt | tr -d '\r\n ' | base64 -d > /tmp/monlinarque-v3.tar.gz
+rm -rf /tmp/monlinarque-v3-src
+mkdir -p /tmp/monlinarque-v3-src
+tar -xzf /tmp/monlinarque-v3.tar.gz -C /tmp/monlinarque-v3-src --strip-components=1
+cp -a /tmp/monlinarque-v3-src/. .
+npm ci
+npm run build
