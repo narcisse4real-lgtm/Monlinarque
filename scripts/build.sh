@@ -7,5 +7,5 @@ rm -rf /tmp/monlinarque-source
 mkdir -p /tmp/monlinarque-source
 unzip -q /tmp/monlinarque-source.zip -d /tmp/monlinarque-source
 cp -a /tmp/monlinarque-source/monlinarque/. .
-npm ci
+npm ci --include=dev
 npm run build
