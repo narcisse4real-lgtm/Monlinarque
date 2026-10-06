@@ -5,5 +5,5 @@ rm -rf /tmp/monlinarque-v3-src
 mkdir -p /tmp/monlinarque-v3-src
 tar -xzf /tmp/monlinarque-v3.tar.gz -C /tmp/monlinarque-v3-src --strip-components=1
 cp -a /tmp/monlinarque-v3-src/. .
-npm ci
+npm ci --include=dev
 npm run build
