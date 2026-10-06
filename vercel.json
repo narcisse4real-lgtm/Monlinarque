@@ -1,5 +1,4 @@
 {
   "framework": "nextjs",
-  "installCommand": "echo 'Dependencies are installed from the bundled project during build'",
-  "buildCommand": "bash scripts/build-preview.sh"
+  "buildCommand": "bash scripts/build.sh"
 }

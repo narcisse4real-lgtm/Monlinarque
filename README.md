@@ -1,13 +1,10 @@
 # Monlinarque
 
-Website source used for the Monlinarque Vercel deployment.
+Current deploy source: **Monlinarque v3 — 6 Oct 2026**
 
-## Current version
+The repository stores the exact uploaded Next.js project as a chunked archive so binary image assets remain byte-identical during deployment.
 
-This repository reconstructs the exact uploaded project bundle during the Vercel build.
+Source archive SHA-256:
+`2ede12f7484b72aff04ff13cce86a4e87c91c1fe73fd87f2808da936175de37f`
 
-Bundle SHA-256:
-
-`b1047ba8ce3c805098db7ea52351b10242734cd8bf1bb8e23586dda6bef3eae6`
-
-The current bundle includes the refreshed dog photography, bronze/gold relief imagery, detail shots, interior scene and beach campaign imagery.
+Vercel reconstructs the source archive during the build, verifies its checksum, installs dependencies, and runs the native Next.js build.

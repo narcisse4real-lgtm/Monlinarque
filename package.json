@@ -1,8 +1,11 @@
 {
   "name": "monlinarque-deploy-wrapper",
-  "version": "1.0.0",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
-    "build": "bash scripts/build-preview.sh"
+    "build": "bash scripts/build.sh"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
